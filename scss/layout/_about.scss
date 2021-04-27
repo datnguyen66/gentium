@@ -1,0 +1,37 @@
+.about{
+    padding-left: 150px;
+    padding-top: 50px;
+    padding-right: 150px;
+    .border-ser{
+        background-color: #e9204f;
+        height: 2px;
+        width: 40px;
+    }
+    .content-text{
+        color: #e9204f;
+        padding-bottom: 50px;
+        p{
+            font-family: 'Abel', sans-serif;
+            font-size: 17.5px;
+        }
+    }
+    .text-about{
+        padding-top: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        padding-bottom: 20px;
+        p{
+            font-size: 48px;
+        }
+        h4{
+            padding-left: 350px;
+        }
+    }
+    .img-about{
+        background-image: url(../img/about.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 570px;
+    }
+}

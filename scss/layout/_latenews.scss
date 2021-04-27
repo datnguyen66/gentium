@@ -1,0 +1,44 @@
+.latenews{
+    background-color: #1b1b1b;
+    padding-top: 100px;
+    padding-left: 200px;
+    padding-bottom: 100px;
+    .icon-late{
+        display: flex;
+        align-items: center;
+        .icon-contact{
+            align-items: center;
+            justify-content: center;            
+            .icon-ft{
+                font-size: 30px;
+                color: white;
+                border-color: #e9204f ;
+                border-style: solid;
+                border-width: 2px 2px 2px 2px;
+                padding: 15px;
+            }
+        }
+    }
+    .text-late{
+        padding-left: 300px;
+        h2{
+            color: white;
+        }
+    }
+    .button-late{
+        border-color: #e9204f;
+        padding-left: 200px;
+        .button{
+            border-color: #e9204f;
+            height: 50px;
+            width: 150px;
+            background-color: #1b1b1b;
+            color: white;
+            &:hover{
+                background-color: #e9204f;
+                color: white;
+                transition: .5s;
+            }
+        }
+    }
+}

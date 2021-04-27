@@ -1,0 +1,42 @@
+.elementor{
+    background-color: white;
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    // background-position: 70% 48%;
+    // background-size: 640px auto;
+    ;
+
+    
+    .fnews{
+        font-family: 'Roboto', sans-serif;
+        padding-top: 100px;
+        padding-left: 150px;
+        .border-f{
+            border-top: 3px solid  #e9204f ;
+            width: 80px;
+        
+        }
+        .text-f{
+            .text-title{
+                font-size: 78px;
+                color: white;
+                
+                width: 500px;
+            }
+        }
+        .button-lg{
+            margin-top: 50px;
+            border : solid;
+            padding: 20px 40px 20px 40px;
+            border-color: #e9204f;
+            width: 210px;
+            a{
+                text-decoration: none;
+                color: white;
+                font-size: 18px;
+                
+            }
+        }
+    }
+}

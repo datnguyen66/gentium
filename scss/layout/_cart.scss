@@ -1,0 +1,56 @@
+.cart{
+    .cart-row{
+        .cart-table{
+            table{
+                thead{
+                    .form-cart{
+                        .product-remove{
+
+                        }
+                        .product-image{
+                        
+                        }
+                        .product-name{
+                            
+                        }
+                        .product-price{
+                            
+                        }
+                        .product-quantity{
+                            
+                        }
+                        .product-subtutal{
+                            
+                        }
+                    }
+                }
+                tbody{
+                    .form-cart{
+                        .product-remove{
+                            font-size: 30px;
+                        }
+                        .product-image{
+                            img{
+                                width: 100px;
+                            }
+                        }
+                        .product-name{
+                            
+                        }
+                        .product-price{
+                            
+                        }
+                        .product-quantity{
+                            #quantity{
+                                width: 70px;
+                            }
+                        }
+                        .product-subtutal{
+                            
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,86 @@
+.detail-product{
+    .detail{
+        .row{
+            .image-content{
+                img{
+                    width: 100%;
+                }
+            }
+            .text-content{
+                padding-left: 100px;
+                .name-product{
+                    margin-bottom: 40px;
+                }
+                .price-product{
+                    margin-bottom: 40px;
+                }
+                .cart{
+                    display: flex;
+                    padding-top: 50px;
+                    align-items: center;
+                    .button-quantity{
+                        height: 50px;
+                        width: 50px;
+                        margin-bottom: 0;
+                    }
+                    .button-addtocart{
+                        height: 50px;
+                        margin-left: 50px ;
+                        width: 150px;
+                        border-color: #e9204f;
+                        background-color: #1b1b1b;
+                        color: white;
+                        &:hover{
+                            background-color: #e9204f ;
+                            transition: .5;
+                        }
+                    
+                    }
+                }
+                .share{
+                    display: flex;
+                    .iconshare{
+                        font-size: 30px;
+                        padding-top: 60px;
+                    }
+                    .iconss{
+                        font-size: 50px;
+                        padding-top: 50px;
+                        padding-left: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
+.comment{
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    margin-left: 325px;
+    .comment-product{
+        height: 100px;
+        width: 70%;
+       
+        margin-bottom: 0;
+    }
+    .submit-comment{
+        height: 100px;
+        width: 40px;
+        
+        &:hover{
+            background-color: #e9204f;
+            color: white;
+            border-color: #e9204f;
+        }        
+    }
+    .text-comment{
+        h3{
+            margin-top: 20px;
+        }
+        p{
+            margin-top: 20px;
+        }
+    }
+}

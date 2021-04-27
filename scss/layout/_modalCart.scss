@@ -1,0 +1,14 @@
+.modal-cart {
+    position: fixed;
+    width: 60%;
+    background-color: #fff;
+    top: 0;
+    left: 0;
+    margin-left: 50%;
+    transform: translateX(-50%) translateY(-200%);
+    margin-top: 130px;  
+    padding: 16px;
+    border-radius: 10px;
+    transition: .5s;
+    
+}

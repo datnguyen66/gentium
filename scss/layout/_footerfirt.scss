@@ -1,0 +1,30 @@
+.footer-firt{
+    background-color: #161616;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    .contentinfor{
+        h3{
+            margin: 0;
+            color: white;
+        }
+        h4{
+            color: white;
+            margin: 0;
+        }
+    }
+    .contentinfor2{
+        h3{
+            margin: 0;
+            color: white;
+        }
+        h4{
+            color: white;
+            margin: 0;
+        }
+    }
+}

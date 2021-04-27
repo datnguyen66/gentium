@@ -1,0 +1,104 @@
+.works{
+    padding-left: 150px;
+    padding-top: 50px;
+    padding-right: 150px;
+    .border-ser{
+        background-color: #e9204f;
+        height: 2px;
+        width: 40px;
+    }
+    .works-hea{
+        padding-top: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .text{
+            h2{
+                font-size: 48px;
+            }
+        }
+        .button-view{
+            padding-right: 20px;
+            border-color: #e9204f;
+            .button{
+                border-color: #e9204f;
+                height: 50px;
+                width: 150px;
+                background-color: white;
+                &:hover{
+                    background-color: #e9204f;
+                    color: white;
+                    transition: .5s;
+                }
+            }
+            
+        }
+    }
+    .text-pr{
+        padding-top: 30px;
+        p{
+            color: #e9204f;
+            font-size: 17.5px;
+            font-family: 'Abel', sans-serif;
+        }
+    }
+    .products{
+        padding-bottom: 50px;
+        padding-top: 20px;
+        .row{
+            display: flex;
+            .col-3{
+                padding-top: 70px;
+                img{
+                    height: 350px;
+                    width: 100%;
+                    display: block;
+                    padding: 0px 15px 0px 15px;
+                }
+                .content-product{
+                    padding-top: 30px;
+                    padding-left: 10px;
+                    .name-products{
+                        p{
+                            font-size: 20px;
+                            padding-left: 10px;
+                            a{
+                                text-decoration: none;
+                                color: black;
+                                &:hover{
+                                    color: #e9204f;
+                                }
+                            }
+                            
+                        }
+                    }
+                    .price{
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        padding-right: 20px;
+                        padding-top: 7px;
+                        p{
+                            font-size: 20px;
+                            padding-top: 10px;
+                            padding-left: 10px;
+                        }
+                        .icon-cart{
+                            border: 1px solid black;
+                            padding: 8px;
+                            i{
+                                font-size: 20px;
+                            }
+                            &:hover{
+                                border-color: #e9204f;
+                                color: white;
+                                background-color: #e9204f;
+                                transition: .5;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
