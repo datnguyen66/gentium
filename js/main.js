@@ -105,7 +105,7 @@ const renderCart = (arr)=>{
 // detail product
 
 window.detail = function(id) {
-    location.href = "../pages/detailproducts.html";
+    location.href = "../gentium/pages/detailproducts.html";
     localStorage.setItem('id', id)
 }
 
